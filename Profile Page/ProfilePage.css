@@ -1,0 +1,119 @@
+hr{
+    background-color: black;
+    
+}
+body{
+    background-image: url(BackgroundImage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Main_Content{
+    width: 80%;
+    height: 1500px;
+    margin-top: 100px;
+    background-color: cornsilk;
+}
+#Header{
+    display: flex;
+    align-items: flex-start;
+}
+#PersonalInfo{
+    margin-top: 50px;
+}
+h1{
+    font-size: 100px;
+    color: darkslateblue;
+    margin: 0;
+}
+
+#ProfilePicture{
+    width: 350px; 
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-right: 100px;
+}
+#ProfileText{
+    flex-grow: 1;
+}
+#Major{
+    margin-top: 30px;
+    color: white;
+    background-color: grey;
+    font-size: 30px;
+    padding: 20px;
+    display: inline-block;
+}
+#Profile {
+    width: 450px; 
+    height: 400px; 
+    background-color: rgb(22, 64, 79); 
+    color: white; 
+}
+#Profile_Title{
+    margin: 20px;
+    font-size: 50px;;
+}
+#Profile_Content{
+    font-size: 20px;
+    margin: 20px;
+}
+#Education {
+    background-color: lightgrey;
+    width: 450px;
+    flex-grow: 1; 
+    height: 650px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+#Education_Title{
+    font-size: 50px;
+    margin: 20px;
+    text-align: left;
+    margin-right: 60%;
+    color: black;
+}
+#Education_Content{
+    margin: 30px;
+    color: black;
+   
+}
+#School{
+    font-size: 30px;
+    font-size: 40px;
+}
+#Edu_Major{
+    font-size: 30px;
+}
+#Work_History{
+    background-color: cornsilk;
+    width: auto;
+    height: 1050px;
+    margin-right: 10px;
+    margin-left: 20px;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+#Experience{
+    font-size: 50px;
+    color: black;
+}
+#Company_Name{
+font-size: 25px;
+font-weight: bold;
+}
+#Job_Title{
+font-size: 20px;
+color:darkcyan;
+}
+#Job_Info{
+font-size: 15px;
+}
+
+
